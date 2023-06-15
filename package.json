@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "forever start consumer.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "dotenv": "^16.1.4",
     "forever": "^4.0.3",
     "mqtt": "^4.3.7"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
   }
 }
