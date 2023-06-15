@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "mocha test/",
     "start": "forever start consumer.js"
   },
   "author": "",
